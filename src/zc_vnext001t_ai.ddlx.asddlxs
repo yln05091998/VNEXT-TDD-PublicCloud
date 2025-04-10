@@ -1,0 +1,111 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'EmployeeId'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'EmployeeId'
+annotate view ZC_VNEXT001T_AI with
+{
+  @EndUserText.label: 'EmployeeId'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'EmployeeId'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'EmployeeId'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  EmployeeId;
+  
+  @EndUserText.label: 'EmployeeName'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'EmployeeName'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'EmployeeName'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  EmployeeName;
+  
+  @EndUserText.label: 'Birthday'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Birthday'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Birthday'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Birthday;
+  
+  @UI.identification: [ {
+    position: 40 
+  } ]
+  @UI.lineItem: [ {
+    position: 40 
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  CreatedBy;
+  
+  @UI.identification: [ {
+    position: 50 
+  } ]
+  @UI.lineItem: [ {
+    position: 50 
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  CreatedAt;
+  
+  @UI.identification: [ {
+    position: 60 
+  } ]
+  @UI.lineItem: [ {
+    position: 60 
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  LocalLastChangedBy;
+  
+  @UI.identification: [ {
+    position: 70 
+  } ]
+  @UI.lineItem: [ {
+    position: 70 
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  LocalLastChangedAt;
+  
+  @UI.identification: [ {
+    position: 80 
+  } ]
+  @UI.lineItem: [ {
+    position: 80 
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  LastChangedAt;
+}

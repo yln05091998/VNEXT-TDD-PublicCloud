@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_VNEXT001T_AI'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_VNEXT001T_AI'
+  }
+}
+define service ZUI_VNEXT001T_AI_O4 provider contracts odata_v4_ui {
+  expose ZC_VNEXT001T_AI as Employee;
+}
